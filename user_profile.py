@@ -7,11 +7,11 @@ def build_profile(first_name, last_name, **additional_info):
     profile.update(additional_info)
     return profile
 my_profile = build_profile(
-    first_name='Halima',
-    last_name='Mahmoud',
+    first_name='Yusuf',
+    last_name='Yakubu',
     age=50,
     occupation='Data scientist',
-    interests=['Programming', 'Sleeping', 'Cooking']
+    interests=['Research', 'Sleeping', 'Cooking']
 )
 print("My Profile:")
 print(my_profile)
